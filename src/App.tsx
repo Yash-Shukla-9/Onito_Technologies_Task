@@ -1,7 +1,11 @@
-import "./App.css";
+import { TextField } from "@mui/material";
 
-function App() {
-  return <></>;
-}
+const App = () => {
+  return (
+    <div>
+      <TextField id="standard-basic" label="Standard" variant="standard" />
+    </div>
+  );
+};
 
 export default App;
