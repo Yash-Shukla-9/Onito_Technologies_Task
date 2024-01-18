@@ -2,8 +2,8 @@ import { TextField } from "@mui/material";
 
 const App = () => {
   return (
-    <div>
-      <TextField id="standard-basic" label="Standard" variant="standard" />
+    <div className="w-full flex justify-center">
+      <TextField id="standard-basic" label="First Name" variant="standard" />
     </div>
   );
 };
