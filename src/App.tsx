@@ -1,9 +1,9 @@
-import { TextField } from "@mui/material";
+import ResgistrationFrom from "./Components/Registration";
 
 const App = () => {
   return (
-    <div className="w-full flex justify-center">
-      <TextField id="standard-basic" label="First Name" variant="standard" />
+    <div>
+      <ResgistrationFrom />
     </div>
   );
 };

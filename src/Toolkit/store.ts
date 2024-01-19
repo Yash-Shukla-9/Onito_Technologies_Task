@@ -1,7 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
+import RegistrationSlice from "./RegistrationSlice";
 
 const store = configureStore({
-  reducer: {},
+  reducer: {
+
+    registration : RegistrationSlice
+
+  },
 });
 
 export default store;
